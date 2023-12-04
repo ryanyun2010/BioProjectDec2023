@@ -1,0 +1,55 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "Green World - Tileset.tsx": {
+            "scaleInDock": 2.4719,
+            "scaleInEditor": 2.6689
+        },
+        "floor.tmx": {
+            "scale": 1.1177,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 598.1032477408966,
+                "y": -45.182070322984714
+            }
+        },
+        "monochrome_tilemap.tsx": {
+            "scaleInDock": 1.2732,
+            "scaleInEditor": 1
+        },
+        "monochrome_tilemap_transparent.tsx": {
+            "scaleInDock": 2.0593,
+            "scaleInEditor": 1
+        }
+    },
+    "last.imagePath": "/Users/ryanyun/Downloads/FreePlatformerNA/Foreground",
+    "map.fixedSize": true,
+    "map.height": 2,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 9,
+    "openFiles": [
+    ],
+    "project": "tileset.tiled-project",
+    "recentFiles": [
+        "Green World - Tileset.tsx",
+        "monochrome_tilemap.tsx",
+        "floor.tmx",
+        "monochrome_tilemap_transparent.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.spacing": 0,
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}
