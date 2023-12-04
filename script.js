@@ -25,85 +25,85 @@ let Images = {};
 let DialogueBoxes = {};
 
 function preload() {
-    curDialogueBox = loadImage("./dialoguestart.png");
-    Images.glucose = loadImage("./glucose.png");
-    Images.background = loadImage("./background.png");
-    Images.atp = loadImage("./atp.png");
-    Images.fructose = loadImage("./fructose.png");
-    Images.adp = loadImage("./adp.png");
-    Images.acoa = loadImage("./acoa.png");
-    Images.nadp = loadImage("./nadp+.png");
-    Images.nadph = loadImage("./nadph.png");
-    Images.pyruvate = loadImage("./pyruvate.png");
-    Images.floor = loadImage("./floor.png");
-    Images.floor2 = loadImage("./floor2.png");
-    Images.wall = loadImage("./wall.png");
-    Images.tpup = loadImage("./tpup.png");
-    Images.tpdown = loadImage("./tpdown.png");
-    Images.CO2 = loadImage("./CO2.png");
-    Images.nad = loadImage("./nad.png");
-    Images.nadh = loadImage("./nadh.png");
-    Images.acetyl = loadImage("./acetyl.png");
-    Images.coa = loadImage("./coa.png");
+    curDialogueBox = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/dialoguestart.png");
+    Images.glucose = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/glucose.png");
+    Images.background = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/background.png");
+    Images.atp = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/atp.png");
+    Images.fructose = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/fructose.png");
+    Images.adp = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/adp.png");
+    Images.acoa = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/acoa.png");
+    Images.nadp = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/nadp+.png");
+    Images.nadph = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/nadph.png");
+    Images.pyruvate = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/pyruvate.png");
+    Images.floor = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/floor.png");
+    Images.floor2 = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/floor2.png");
+    Images.wall = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/wall.png");
+    Images.tpup = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/tpup.png");
+    Images.tpdown = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/tpdown.png");
+    Images.CO2 = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/CO2.png");
+    Images.nad = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/nad.png");
+    Images.nadh = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/nadh.png");
+    Images.acetyl = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/acetyl.png");
+    Images.coa = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/coa.png");
 
 
-    DialogueBoxes.atp1 = loadImage("./dialogue1atp.png");
-    DialogueBoxes.atp2 = loadImage("./dialogue2atp.png");
-    DialogueBoxes.step1done = loadImage("./dialoguestep2.png");
+    DialogueBoxes.atp1 = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/dialogue1atp.png");
+    DialogueBoxes.atp2 = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/dialogue2atp.png");
+    DialogueBoxes.step1done = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/dialoguestep2.png");
 
-    DialogueBoxes.nadp0adp1 = loadImage("./dialogue0nadp1adp.png");
-    DialogueBoxes.nadp1adp0 = loadImage("./dialogue1nadp0adp.png");
+    DialogueBoxes.nadp0adp1 = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/dialogue0nadp1adp.png");
+    DialogueBoxes.nadp1adp0 = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/dialogue1nadp0adp.png");
 
-    DialogueBoxes.nadp2adp0 = loadImage("./dialogue2nadp0adp.png");
-    DialogueBoxes.nadp0adp2 = loadImage("./dialogue0nadp2adp.png");
-    DialogueBoxes.nadp1adp1adp = loadImage("./dialogue1nadp1adp-adp.png");
-    DialogueBoxes.nadp1adp1nadp = loadImage("./dialogue1nadp1adp-nadp.png");
+    DialogueBoxes.nadp2adp0 = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/dialogue2nadp0adp.png");
+    DialogueBoxes.nadp0adp2 = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/dialogue0nadp2adp.png");
+    DialogueBoxes.nadp1adp1adp = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/dialogue1nadp1adp-adp.png");
+    DialogueBoxes.nadp1adp1nadp = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/dialogue1nadp1adp-nadp.png");
 
-    DialogueBoxes.nadp2adp1adp = loadImage("./dialogue2nadp1adp-adp.png"); 
-    DialogueBoxes.nadp2adp1nadp = loadImage("./dialogue2nadp1adp-nadp.png"); 
-    DialogueBoxes.nadp1adp2adp = loadImage("./dialogue1nadp2adp-adp.png"); 
-    DialogueBoxes.nadp1adp2nadp = loadImage("./dialogue1nadp2adp-nadp.png"); 
+    DialogueBoxes.nadp2adp1adp = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/dialogue2nadp1adp-adp.png"); 
+    DialogueBoxes.nadp2adp1nadp = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/dialogue2nadp1adp-nadp.png"); 
+    DialogueBoxes.nadp1adp2adp = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/dialogue1nadp2adp-adp.png"); 
+    DialogueBoxes.nadp1adp2nadp = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/dialogue1nadp2adp-nadp.png"); 
 
-    DialogueBoxes.nadp2adp2adp = loadImage("./dialogue2nadp2adp-adp.png"); 
-    DialogueBoxes.nadp2adp2nadp = loadImage("./dialogue2nadp2adp-nadp.png")
-
-
-    DialogueBoxes.adp0nadp1 = loadImage("./dialogue1nadp0adp.png");
-    DialogueBoxes.adp1nadp0 = loadImage("./dialogue0nadp1adp.png");
-
-    DialogueBoxes.adp2nadp0 = loadImage("./dialogue0nadp2adp.png");
-    DialogueBoxes.adp0nadp2 = loadImage("./dialogue2nadp0adp.png");
-    DialogueBoxes.adp1nadp1adp = loadImage("./dialogue1nadp1adp-adp.png");
-    DialogueBoxes.adp1nadp1nadp = loadImage("./dialogue1nadp1adp-nadp.png");
-
-    DialogueBoxes.adp2nadp1adp = loadImage("./dialogue1nadp2adp-adp.png"); 
-    DialogueBoxes.adp2nadp1nadp = loadImage("./dialogue1nadp2adp-nadp.png"); 
-    DialogueBoxes.adp1nadp2adp = loadImage("./dialogue2nadp1adp-adp.png"); 
-    DialogueBoxes.adp1nadp2nadp = loadImage("./dialogue2nadp1adp-nadp.png"); 
-
-    DialogueBoxes.adp2nadp2adp = loadImage("./dialogue2nadp2adp-adp.png"); 
-    DialogueBoxes.adp2nadp2nadp = loadImage("./dialogue2nadp2adp-nadp.png");
-
-    DialogueBoxes.SnipCarbon = loadImage("./dialogueSnipCarbon.png");
-    DialogueBoxes.step3start = loadImage("./dialoguestep3start.png");
-    DialogueBoxes.nad1 = loadImage("./dialogue1nad.png");
-    DialogueBoxes.step3done = loadImage("./dialoguestep3done.png");
-    DialogueBoxes.step4start = loadImage("./dialoguestep4start.png");
-    DialogueBoxes.CoA1 = loadImage("./dialogue1CoA.png");
-    DialogueBoxes.step4done = loadImage("./dialoguestep4done.png");
-    DialogueBoxes.complete = loadImage("./dialoguecomplete.png");
+    DialogueBoxes.nadp2adp2adp = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/dialogue2nadp2adp-adp.png"); 
+    DialogueBoxes.nadp2adp2nadp = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/dialogue2nadp2adp-nadp.png")
 
 
-    Images["112x32"] = [loadImage("./112x32type1.png"),loadImage("./112x32type2.png"),loadImage("./112x32type3.png"),loadImage("./112x32type4.png")]
-    Images["96x32"] = [loadImage("./96x32type1.png"),loadImage("./96x32type2.png"),loadImage("./96x32type3.png"),loadImage("./96x32type4.png")]
-    Images["384x32"] = loadImage("./384x32.png")
-    Images["256x32"] = loadImage("./256x32.png")
-    Images["32x32"] = loadImage("./32x32.png")
-    Images["304x32"] = loadImage("./304x32.png")
-    Images["64x32"] = loadImage("./64x32.png")
-    Images["64x608airflow"] = loadImage("./64x608airflow.png")
-    Images["64x1216airflow"] = loadImage("./64x1216airflow.png")
-    Images["144x32"] = [loadImage("./144x32type1.png"),loadImage("./144x32type2.png"),loadImage("./144x32type3.png"),loadImage("./144x32type4.png"),loadImage("./144x32type5.png"),loadImage("./144x32type6.png")]
+    DialogueBoxes.adp0nadp1 = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/dialogue1nadp0adp.png");
+    DialogueBoxes.adp1nadp0 = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/dialogue0nadp1adp.png");
+
+    DialogueBoxes.adp2nadp0 = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/dialogue0nadp2adp.png");
+    DialogueBoxes.adp0nadp2 = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/dialogue2nadp0adp.png");
+    DialogueBoxes.adp1nadp1adp = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/dialogue1nadp1adp-adp.png");
+    DialogueBoxes.adp1nadp1nadp = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/dialogue1nadp1adp-nadp.png");
+
+    DialogueBoxes.adp2nadp1adp = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/dialogue1nadp2adp-adp.png"); 
+    DialogueBoxes.adp2nadp1nadp = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/dialogue1nadp2adp-nadp.png"); 
+    DialogueBoxes.adp1nadp2adp = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/dialogue2nadp1adp-adp.png"); 
+    DialogueBoxes.adp1nadp2nadp = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/dialogue2nadp1adp-nadp.png"); 
+
+    DialogueBoxes.adp2nadp2adp = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/dialogue2nadp2adp-adp.png"); 
+    DialogueBoxes.adp2nadp2nadp = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/dialogue2nadp2adp-nadp.png");
+
+    DialogueBoxes.SnipCarbon = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/dialogueSnipCarbon.png");
+    DialogueBoxes.step3start = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/dialoguestep3start.png");
+    DialogueBoxes.nad1 = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/dialogue1nad.png");
+    DialogueBoxes.step3done = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/dialoguestep3done.png");
+    DialogueBoxes.step4start = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/dialoguestep4start.png");
+    DialogueBoxes.CoA1 = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/dialogue1CoA.png");
+    DialogueBoxes.step4done = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/dialoguestep4done.png");
+    DialogueBoxes.complete = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/dialoguecomplete.png");
+
+
+    Images["112x32"] = [loadImage("https://ryanyun2010.github.io/BioProjectDec2023/112x32type1.png"),loadImage("https://ryanyun2010.github.io/BioProjectDec2023/112x32type2.png"),loadImage("https://ryanyun2010.github.io/BioProjectDec2023/112x32type3.png"),loadImage("https://ryanyun2010.github.io/BioProjectDec2023/112x32type4.png")]
+    Images["96x32"] = [loadImage("https://ryanyun2010.github.io/BioProjectDec2023/96x32type1.png"),loadImage("https://ryanyun2010.github.io/BioProjectDec2023/96x32type2.png"),loadImage("https://ryanyun2010.github.io/BioProjectDec2023/96x32type3.png"),loadImage("https://ryanyun2010.github.io/BioProjectDec2023/96x32type4.png")]
+    Images["384x32"] = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/384x32.png")
+    Images["256x32"] = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/256x32.png")
+    Images["32x32"] = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/32x32.png")
+    Images["304x32"] = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/304x32.png")
+    Images["64x32"] = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/64x32.png")
+    Images["64x608airflow"] = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/64x608airflow.png")
+    Images["64x1216airflow"] = loadImage("https://ryanyun2010.github.io/BioProjectDec2023/64x1216airflow.png")
+    Images["144x32"] = [loadImage("https://ryanyun2010.github.io/BioProjectDec2023/144x32type1.png"),loadImage("https://ryanyun2010.github.io/BioProjectDec2023/144x32type2.png"),loadImage("https://ryanyun2010.github.io/BioProjectDec2023/144x32type3.png"),loadImage("https://ryanyun2010.github.io/BioProjectDec2023/144x32type4.png"),loadImage("https://ryanyun2010.github.io/BioProjectDec2023/144x32type5.png"),loadImage("https://ryanyun2010.github.io/BioProjectDec2023/144x32type6.png")]
 }
 class GameObject {
     constructor() {
